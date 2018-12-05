@@ -6,20 +6,20 @@ void mocnina()
 {
     int i;
     double o;
-    double a;
-    int b;
+    double zaklad;
+    int mocnitel;
     
     printf("Napiste 2 cisla \n");
-    scanf("%lf %d",&a,&b);
+    scanf("%lf %d",&zaklad,&mocnitel);
     
-    o=a;
+    o=zaklad;
     i=1;
     
-    for (i=1;i<=b;i++)
+    for (i=1;i<=mocnitel;i++)
     {
-        printf("%1.2lf^%d = %1.2lf\n",a,i,o);
+        printf("%1.2lf^%d = %1.2lf\n",zaklad,i,o);
         
-        (o=a*o);
+        (o=zaklad*o);
         
     }
 }
