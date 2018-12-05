@@ -14,7 +14,6 @@ void mocnina()
     
     o=a;
     i=1;
-    //printf("%1.2lf ^ %d = %1.2lf\n",x,i,o);
     
     for (i=1;i<=b;i++)
     {
