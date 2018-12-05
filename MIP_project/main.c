@@ -27,19 +27,19 @@ void mocnina()
 void nasobok()
 { int i;
     double o;
-    double a;
-    int b;
+    double cinitel;
+    int druhycin;
     
     printf("Napiste 2 cisla \n");
-    scanf("%lf %d",&a,&b);
+    scanf("%lf %d",&cinitel,&druhycin);
     
     i=1;
-    o=a;
+    o=cinitel;
     
-    for (i=1;i<=b;i++)
+    for (i=1;i<=druhycin;i++)
     {
-        printf("%1.2lf * %d = %1.2lf\n",a,i,o);
-        o=o+a;
+        printf("%1.2lf * %d = %1.2lf\n",cinitel,i,o);
+        o=o+cinitel;
     }
     
 }
