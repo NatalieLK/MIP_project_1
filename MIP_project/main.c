@@ -46,6 +46,22 @@ void nasobok()
 
 double tyzdenna_mzda(double money, double hod)
 {
+    double allmoney;
+    allmoney=0;
+    
+    if (hod<=40) {
+        allmoney=(money*hod);
+        
+    }
+    else if (hod>60){
+        allmoney=((money*40)+(1.5*money*20)+(2*money*(hod-60)));
+    }
+    else {
+        
+        (allmoney=(money*40)+(1.5*money*(hod-40)));
+    }
+    
+    return allmoney;
 }
 
 
