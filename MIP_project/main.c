@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 
+void mocnina()
+{
+    
+}
+
+void nasobok()
+{
+    
+}
+
 
 int main()                                   //HLAVNY PROGRAM MAIN
 {
@@ -15,10 +25,11 @@ int main()                                   //HLAVNY PROGRAM MAIN
             switch (c)
             {
                 case 'm':    //mocnina
+                     mocnina;
                     break;
                     
                 case 'n':     //nasobok
-                   
+                    nasobok();
                     break;
                     
                 case 't':     //tyzdenna mzda
