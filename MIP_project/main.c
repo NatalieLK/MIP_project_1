@@ -11,6 +11,18 @@ void mocnina()
     
     printf("Napiste 2 cisla \n");
     scanf("%lf %d",&a,&b);
+    
+    o=a;
+    i=1;
+    //printf("%1.2lf ^ %d = %1.2lf\n",x,i,o);
+    
+    for (i=1;i<=b;i++)
+    {
+        printf("%1.2lf^%d = %1.2lf\n",a,i,o);
+        
+        (o=a*o);
+        
+    }
 }
 
 void nasobok()
