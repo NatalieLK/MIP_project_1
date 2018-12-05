@@ -36,6 +36,12 @@ void nasobok()
     i=1;
     o=a;
     
+    for (i=1;i<=b;i++)
+    {
+        printf("%1.2lf * %d = %1.2lf\n",a,i,o);
+        o=o+a;
+    }
+    
 }
 
 
