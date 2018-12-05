@@ -64,6 +64,12 @@ double tyzdenna_mzda(double money, double hod)
     return allmoney;
 }
 
+void koniec()
+{
+    exit;
+    
+}
+
 
 int main()                                   //HLAVNY PROGRAM MAIN
 {
@@ -121,7 +127,8 @@ int main()                                   //HLAVNY PROGRAM MAIN
     
     if ((c='k'))                  // ak písmeno 'k' ukončíme program vo funkcii
     {
-       
+        koniec;
+        
     }
     
     
