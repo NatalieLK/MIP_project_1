@@ -4,7 +4,13 @@
 
 void mocnina()
 {
+    int i;
+    double o;
+    double a;
+    int b;
     
+    printf("Napiste 2 cisla \n");
+    scanf("%lf %d",&a,&b);
 }
 
 void nasobok()
