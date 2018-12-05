@@ -44,10 +44,17 @@ void nasobok()
     
 }
 
+double tyzdenna_mzda(double money, double hod)
+{
+}
+
 
 int main()                                   //HLAVNY PROGRAM MAIN
 {
     char c;
+    int n;
+    int i;
+    double mzda, hodiny,tyzden,celkovo;
     
     scanf("%c",&c);                         // cyklus pokiaľ nestlačíme 'k'
     if (c!='k')
